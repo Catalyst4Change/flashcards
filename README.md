@@ -1,71 +1,17 @@
-# FlashCards Starter Kit
+## What’s going on here?
+This project was designed and built by Catalyst for my Turing School of Software & Design Module 2 premier solo project. The goal was to create a working flashcard game is playable on Terminal's Command Line Interface. The game should keep track of cards guessed correctly and display a percentage of correct guesses at the end of the game.\
+Project expectations can be found <a href="https://frontend.turing.edu/projects/flash-cards.html">here</a>.\
+GitHub repo can be found <a href="https://github.com/Catalyst4Change/flashcards">here</a>.
 
-## Fork This Repo
+## How did you make this?:
+This project is made entirely with vanilla JavaScript and includes 25 tests that guided my development. I believe I worked on it for 10 hours total.
 
-On the top right corner of this page, click the **Fork** button.
+Frankly I struggled with this project. I was not able to complete it before the deadline. I think with just a few more hours, I could complete it but <i>c'est la vie</i>.
 
-## Setup
+As with most projects, the hardest part was getting started. It was difficult to conceptualize how a game like this would work without a typical graphical interface. Once I got started, I was able to work in fits and starts.\
+Writing the tests to check if the deck was being written correctly was a pain. At first I was proud of my jokey test card, but when the tests called for a succession of different cards to make sure score was being kept correctly, I found that I'd written myself into a corner.\
+Also, the test, "When a guess is made, a new Turn instance is created." was incompatible with the way that I wrote my code, so I ignored it.\
+Another problem that stopped me in my tracks was calculating the win/loss percentage at the end. I am not good at math under the best circumstances, and having an extra layer of complication that is code made it basically impossible. I had to have someone hold my hand and walk me through the process.
 
-Clone down the forked repo (from your GitHub). Since you don't want to name your project "flashcards-starter", you can use an optional argument when you run `git clone` (you replace the `[...]` with the terminal command arguments):
-
-```bash
-git clone [remote-address] [what you want to name the repo]
-```
-
-Once you have cloned the repo, change into the directory and install the library dependencies. Run:
-
-```bash
-npm install
-```
-
-To verify that it is setup correctly, run `npm test` in your terminal. You should have 5 pending tests in your `Card` test file that show up.
-
-Running `node index.js` from the root of your project should result in the following message being displayed in your terminal: 
-
-```bash
-Your project is running...
-```
-
-*Note that you will not need to you run your server until you are instantiating your `Game` class in Iteration 3. Prior to that, you should be using TDD to drive your code. You should check the functionality of your application by running your tests via `npm test`.*
-
-
-## Where to Add Your Code
-
-### JavaScript
-
-**Create all of your feature code files in the `src` directory.**
-
-We will be using the `module.exports` and `require` syntax to share code across files.
-
-## How to View Your Code in Action
-
-Once you are working through Iteration 3, you will want to start your server to test your functionality.
-In the terminal, run:
-
-```bash
-node index.js
-```
-
-When the game is functioning appropriately, you will be prompted for each question, have the opportunity to select an answer, and will be given feedback. You will be able to play through the entire deck of cards:
-
-![flash cards example gif](https://media.giphy.com/media/1zkb1q58eTiTH6D7wc/giphy.gif)
-
----
-
-## Test Files Organization
-
-Similar to feature code, your test code needs to be put in a specific place for it to run successfully.
-
-**Put all of your test files in the `test` directory.** As a convention, all test filenames should end with `-test.js`. For instance: `Round-test.js`.
-
-## Running Your Tests
-
-Run your test suite using the command:
-
-```bash
-npm test
-```
-
-The test results will output to the terminal.
-
-
+## Doumo Arigatou Gozaimasu:
+Speaking of holding my hand, I would like to thank my mentor Alia, and my friends at Turing. Without them siting along side while I coded, I would not have gotten as much done as I did.
